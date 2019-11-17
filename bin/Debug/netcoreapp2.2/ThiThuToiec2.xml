@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ThiThuToiec2</name>
+    </assembly>
+    <members>
+        <member name="M:ThiThuToiec2.Controllers.LoginController.GetDanhSachNguoiDung">
+             <summary>
+             Lay danh sach nguoi dung
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /Quanlynguoidung
+             </remarks>
+             <returns>mot danh sach nguoi dung</returns>
+             <response code="201">Tra ve mot danh sach nguoi dung</response>
+             <response code="400">Neu danh sach trong</response>   
+        </member>
+        <member name="M:ThiThuToiec2.Controllers.LoginController.TimKiemNguoiDung(System.String,System.String,System.Int32)">
+            <summary>
+            </summary>
+            <param name="userName"></param>
+            <param name="mail"></param>
+            <param name="sdt"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
